@@ -1,0 +1,40 @@
+@import url("https://use.typekit.net/ywy1oqq.css");
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --accent: #4A4E69;
+    --light: #F2E9E4;
+}
+
+.intro-box {
+    background-color: var(--accent);
+    padding: 1rem;
+    color: var(--light);
+    height: 100dvh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.intro {
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 4rem;
+}
+
+h1 {
+    font-size: 7rem;
+    margin: 1rem;
+}
+
+h2 {
+    font-size: 5rem;
+    margin: 1rem;
+}
